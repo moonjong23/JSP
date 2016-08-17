@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+window.onload = function(){
+	document.getElementById("btnOk").onclick = function(){
+		if(frm.name.value === "" || frm.subject.value === ""){
+			alert("작성자 또는 제목을 채우시오");
+			return false;
+		}
+		
+		frm.method = "post";
+		frm.action = "Bang";
+		//frm.action = "BangList";
+		frm.submit();
+	}
+}
+</script>
+</head>
+<body>
+<h2>**방명록에 글쓰기**</h2>
+<form name="frm">
+<table>
+	<tr>
+		<td>작성자 : </td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>제 목 : </td>
+		<td><input type="text" name="subject" size="30"></td>
+	</tr>
+	<tr>
+		<td>글내용 : </td>
+		<td><textarea rows="5" cols="30" name="content"></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" value=" 등  록 " id="btnOk">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>

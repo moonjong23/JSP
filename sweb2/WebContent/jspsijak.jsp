@@ -7,15 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
 안녕 나는 jsp 문서야
 <br>
 <%   //scriptlet : 자유롭게 자바의 코드를 기술하는 곳 
@@ -51,7 +42,5 @@ public int add(int m, int n){   //멤버 메소드
 }
 %>
 <%=add(100,200) %>
-</body>
-</html>
 </body>
 </html>

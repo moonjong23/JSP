@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>** post test **</h2>
+<form action="PostData" method="post">
+이름 : <input type="text" name="name" value="한국인"><br/>
+주소1 : <input type="text" name="addr" size="30" value="서울시"><br/>
+주소2 : <input type="text" name="addr" size="30" value="강남구 역삼동"><br/>
+
+<!-- check box -->
+현재 가능한 언어는?<br/>
+<input type="checkbox" name="lan" value="C Language">C언어<br/>
+<input type="checkbox" name="lan" value="JAVA">자바<br/>
+<input type="checkbox" name="lan" value="Python">파이썬<br/>
+
+<!-- radio -->
+현재 사용중인 OS는?<br/>
+<input type="radio" name="os" value="윈도우" checked="checked">윈도우&nbsp;&nbsp;
+<input type="radio" name="os" value="리눅스" >리눅스&nbsp;&nbsp;
+<input type="radio" name="os" value="맥OS" >맥OS<br>
+
+<!-- select -->
+현재 이용 중인 교통수단은?
+<!-- <select name="tr" multiple="multiple"> -->  <!-- multiple 속성을 부여해서 여러개 선택가능(multiple 시 배열로 받아야함)  -->
+<select name="tr">
+<option>버스</option>
+<option>전철</option>
+<option>도보</option>
+</select>
+<input type="hidden" name="edu" value="한국교육">
+<p/>수다떨기<br/>
+<textarea rows="5" cols="50" name="suda"></textarea>
+<br/>
+<input type="submit" value="자료 전송">
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

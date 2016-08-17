@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+window.onload = function(){
+	document.getElementById("btnOk").onclick = function(){
+		frm.submit();
+	}
+}
+</script>
+</head>
+<body>
+<table style="margin-left: auto; margin-right: auto">
+	<tr>
+		<td><img src="../images/bb.jpg" width="90%"></td>
+		<td>
+		<pre>
+센서크기	1:1.6	화소	2420만화소
+속성표
+초점
+AF포인트	45 포인트
+속성표
+셔터
+최소셔터스피드	8000초
+속성표
+화면
+화면크기	7.62cm
+속성표
+뷰파인더
+시야율	100%
+속성표
+노출
+최대ISO감도	ISO 12800
+속성표
+렌즈
+렌즈마운트	캐논 EF마운트
+속성표
+기록
+저장매체	SD, SDHC, SDXC
+속성표
+드라이브
+최대연속촬영속도	7매
+속성표
+크기/무게
+크기	139 x 105 x 79mm	무게	730g
+속성표
+동영상
+파일포맷	MOV (MPEG-4 AVC/H.264)	동영상프레임	60프레임
+동영상 해상도	1920x1080
+속성표
+부가기능
+부가기능	손떨림방지, 먼지제거, 무선전송, 뷰파인더, HDMI출력, NFC
+속성표
+타입
+타입	DSLR
+		</pre>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<form action="../Cart" name="frm" method="post">
+				<input type="hidden" name="name" value="eos">
+				<input type="hidden" name="price" value="1400000">
+				<input type="button" id="btnOk" value="장바구니에 담기">
+				<input type="button" id="btnCancel" value="홈으로" onclick="history.back()">
+			</form>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
