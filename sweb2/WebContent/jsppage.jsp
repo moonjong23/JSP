@@ -33,7 +33,7 @@ out.println("오늘은 " +y+"년 "+m+"월 "+d+"일");
 <%= this.getServletInfo()%>
 <hr>
 <%
-int a = 10/2;
+int a = 10/0;
 out.println("나누기 결과 " + a);
 %>
 </body>

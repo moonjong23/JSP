@@ -9,12 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  <error-page>
-  	<error-code>500</error-code>
-  	<location>/err.jsp</location>
-  </error-page>
-  <error-page>
+  <!-- <error-page>
+  	<error-code>404</error-code>
+  	<location>/err404.jsp</location>
+  </error-page> -->
+  <!-- 연산에러 : 순위 2등 -->
+  <!-- <error-page>
   	<exception-type>java.lang.ArithmeticException</exception-type>
-  	<location>/err2.jsp</location>
-  </error-page>
+  	<location>/errari.jsp</location>
+  </error-page> -->
+  <!-- 연산 에러 : 순위 3등 -->
+  <!-- <error-page>
+  	<error-code>500</error-code>
+  	<location>/err500.jsp</location>
+  </error-page> -->
 </web-app>

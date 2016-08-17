@@ -1,7 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"
-    isErrorPage="true"
-    %>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1 style="color:red;font-size:80px">에러 발생 1순위!!!</h1>
-<%=exception.getMessage() %> <!--exception : 내장 객체-->
+<h1>	문서 컴파일 오류!	</h1>
 </body>
 </html>
