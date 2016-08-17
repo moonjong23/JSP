@@ -20,7 +20,7 @@ public class DbServlet extends HttpServlet {
 	public void init() throws ServletException {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root" , "123");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root" , "123");
 			pstmt = conn.prepareStatement("select * from sangdata");
 		} catch (Exception e) {
 			System.out.println("DB 연결실패 :" + e);

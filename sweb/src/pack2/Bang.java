@@ -23,7 +23,7 @@ public class Bang extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root" , "123");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root" , "123");
 			pstmt = conn.prepareStatement("insert into guest(name, subject, content) values(?,?,?)");
 		} catch (Exception e) {
 			System.out.println("DB 연결실패 :" + e);
