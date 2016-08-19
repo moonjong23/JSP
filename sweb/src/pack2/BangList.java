@@ -41,7 +41,6 @@ public class BangList extends HttpServlet {
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("utf-8");
 		//String name = request.getParameter("name");
 		//String subject = request.getParameter("subject");
 		//String content = request.getParameter("content");
