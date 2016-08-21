@@ -16,8 +16,8 @@ out.println("자료는 " + data);
 
 
 //forwarding방식으로 넘어온 값
-String data2 = (String)request.getAttribute("mydata");
-out.println("자료2는 " + data2);
+//String data2 = (String)request.getAttribute("mydata");
+//out.println("자료2는 " + data2);
 
 %>
 

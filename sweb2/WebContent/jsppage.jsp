@@ -12,7 +12,7 @@
     isELIgnored="false"
     errorPage="myerr.jsp"
    %>
-   <!--(errorPage="myerr.jsp")는 폴딩방식!-->
+   <!--(errorPage="myerr.jsp")는 포워딩방식-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,7 +33,7 @@ out.println("오늘은 " +y+"년 "+m+"월 "+d+"일");
 <%= this.getServletInfo()%>
 <hr>
 <%
-int a = 10/0;
+int a = 10/2;
 out.println("나누기 결과 " + a);
 %>
 </body>
