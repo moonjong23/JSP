@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import jdk.nashorn.internal.ir.RuntimeNode.Request;
-
 @WebServlet("/SessionTest")
 public class SessionTest extends HttpServlet {
 	
