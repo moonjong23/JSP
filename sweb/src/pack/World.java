@@ -25,7 +25,7 @@ public class World extends HttpServlet{
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("Post 방식으로 호출 시 매번 수행");
+		System.out.println("Post 방식으로 호출 시 매번 수행: " + req +" "+ resp);
 	}
 	/*
 	@Override
